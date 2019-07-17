@@ -49,10 +49,3 @@ while [ $i -lt ${MAX_COUNT} ]; do
   sleep 1
   i=$((i + 1))
 done
-
-
-#Starting tamper detection!
-#event: FALLING EDGE offset: 12 timestamp: [1563290457.445881880]
-#Tamper! Tue Jul 16 15:20:58 UTC 2019 (1563290458)
-#event: FALLING EDGE offset: 12 timestamp: [1563290672.799891842]
-#Tamper! Tue Jul 16 15:24:34 UTC 2019 (1563290674)
