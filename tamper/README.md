@@ -9,11 +9,11 @@ This test is primarily a radiated immunity test.
 **Requirements:**
 
 - libgpiod: library accompanied by a set of tools for interacting with the Linux GPIO character device.
-- kernel-headers >= 4.8.
+  - kernel-headers >= 4.8.
 - RTC with tamper support: ex. `rtc-pcf2117`
-  ** Default: `rtc0`
+  - Default: `rtc0`
 - Device tree: IRQ signal using [gpio-line-names](https://github.com/torvalds/linux/blob/master/Documentation/devicetree/bindings/gpio/gpio.txt) property (not gpio-hog).
-  ** Default: `rtc-tamper-irq`
+  - Default: `rtc-tamper-irq`
 
 **Usage:**
 Start test in backgroud so it's easy to have multiple tests running during EMC testing.
