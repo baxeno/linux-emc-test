@@ -1,4 +1,4 @@
-# Tamper function test
+# Tamper detection test
 
 This test is primarily a radiated immunity test.
 
